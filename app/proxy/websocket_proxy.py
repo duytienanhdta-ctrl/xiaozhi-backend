@@ -317,10 +317,17 @@ class WebSocketProxy:
         except Exception as e:
             logger.error(f"客户端信息处理异常: {e}")
 
+    async def process_request(self, path, request_headers):
+        """Xử lý HTTP health-check từ Render để tránh lỗi 405/426"""
+        # Nếu không có header Upgrade websocket, trả về 200 OK cho Render
+        if "Upgrade" not in request_headers or request_headers.get("Upgrade").lower() != "websocket":
+            from http import HTTPStatus
+            return HTTPStatus.OK, [("Content-Type", "text/plain; charset=utf-8")], b"XiaoZhi WebSocket Proxy is Live\n"
+        return None
+
     async def main(self):
         """启动代理服务器"""
 
-        # 设置钩子函数
         def signal_handler(signum=None, frame=None):
             self.shutdown_event.set()
 
@@ -333,6 +340,7 @@ class WebSocketProxy:
                 self.proxy_handler,
                 self.proxy_host,
                 self.proxy_port,
+                process_request=self.process_request,
                 origins=None,
                 ping_interval=20,
                 ping_timeout=20,
