@@ -161,16 +161,30 @@ class WebSocketProxy:
                 f"正在创建新的客户端 websocket 连接: {websocket.remote_address}"
             )
             # 使用正确的参数名称 additional_headers (websockets 11.0+)
-            async with websockets.connect(
-                self.websocket_url, additional_headers=self.headers
-            ) as server_ws:
-                logger.info(f"已连接至 websocket 服务器，请求头: {self.headers}")
+          # Tuong thich ca websockets cu va websockets moi (13/14/17+)
+            try:
+                server_ws_ctx = websockets.connect(
+                    self.websocket_url,
+                    extra_headers=self.headers,
+                    ping_interval=20,
+                    ping_timeout=20,
+                )
+            except TypeError:
+                server_ws_ctx = websockets.connect(
+                    self.websocket_url,
+                    additional_headers=self.headers,
+                    ping_interval=20,
+                    ping_timeout=20,
+                )
+
+            async with server_ws_ctx as server_ws:
+                logger.info(f"Da ket noi toi server websocket, headers: {self.headers}")
                 await self._handle_proxy_communication(websocket, server_ws)
 
         except Exception as e:
-            logger.error(f"代理失败: {e}")
+            logger.error(f"Loi proxy: {e}")
         finally:
-            logger.info("客户端连接关闭")
+            logger.info("Dong ket noi client")
 
     async def _handle_proxy_communication(self, websocket, server_ws):
         """处理代理通信"""
