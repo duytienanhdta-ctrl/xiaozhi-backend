@@ -317,12 +317,28 @@ class WebSocketProxy:
         except Exception as e:
             logger.error(f"客户端信息处理异常: {e}")
 
-    async def process_request(self, path, request_headers):
-        """Xử lý HTTP health-check từ Render để tránh lỗi 405/426"""
-        # Nếu không có header Upgrade websocket, trả về 200 OK cho Render
-        if "Upgrade" not in request_headers or request_headers.get("Upgrade").lower() != "websocket":
+    async def process_request(self, *args, **kwargs):
+        """Xử lý HTTP health-check tương thích cả websockets cũ lẫn websockets 13/14/17+"""
+        request = None
+        for arg in args:
+            if hasattr(arg, "headers"):
+                request = arg
+                break
+            elif isinstance(arg, dict) or hasattr(arg, "__getitem__"):
+                # Dạng headers cũ
+                request = type("Req", (), {"headers": arg})()
+
+        headers = getattr(request, "headers", {}) if request else {}
+        upgrade = headers.get("Upgrade", "") if hasattr(headers, "get") else ""
+
+        # Nếu không phải yêu cầu nâng cấp WebSocket, trả về 200 OK cho Render
+        if upgrade.lower() != "websocket":
             from http import HTTPStatus
-            return HTTPStatus.OK, [("Content-Type", "text/plain; charset=utf-8")], b"XiaoZhi WebSocket Proxy is Live\n"
+            return (
+                HTTPStatus.OK,
+                [("Content-Type", "text/plain; charset=utf-8")],
+                b"XiaoZhi WebSocket Proxy is Live\n",
+            )
         return None
 
     async def main(self):
