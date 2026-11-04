@@ -330,8 +330,15 @@ class WebSocketProxy:
 
         try:
             async with websockets.serve(
-                self.proxy_handler, self.proxy_host, self.proxy_port
+                self.proxy_handler,
+                self.proxy_host,
+                self.proxy_port,
+                origins=None,          # Bỏ kiểm tra Origin để chấp nhận kết nối từ GitHub Pages
+                ping_interval=20,      # Giữ kết nối qua Proxy Render
+                ping_timeout=20,
+                max_size=10 * 1024 * 1024  # Cho phép gói tin âm thanh lên tới 10MB
             ):
+                logger.info(f"WebSocket Proxy đang chạy tại {self.proxy_host}:{self.proxy_port}")
                 await self.shutdown_event.wait()
 
         except asyncio.CancelledError:
