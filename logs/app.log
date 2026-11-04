@@ -1,0 +1,445 @@
+2026-11-04 09:26:17 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 09:26:17 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 09:26:17 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 09:26:17 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 09:26:17 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 09:26:17 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 09:26:18 [app.utils.audio] - ERROR - 导入 opuslib 失败: No module named 'opuslib' - MainProcess
+2026-11-04 09:26:18 [app.utils.audio] - ERROR - 请确保 opus 动态库已正确安装或位于正确的位置 - MainProcess
+2026-11-04 09:27:08 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 09:27:08 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 09:27:08 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 09:27:08 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 09:27:08 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 09:27:08 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 09:27:09 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 09:27:09 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 09:27:09 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 09:27:10 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 10:02:23 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:02:23 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57146) - MainProcess
+2026-11-04 10:02:24 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1', 'Authorization': 'Bearer test_token'} - MainProcess
+2026-11-04 10:03:33 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:03:33 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:03:36 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:03:36 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57189) - MainProcess
+2026-11-04 10:03:36 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1', 'Authorization': 'Bearer test_token'} - MainProcess
+2026-11-04 10:04:43 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:04:43 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:04:46 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:04:46 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57260) - MainProcess
+2026-11-04 10:04:46 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1', 'Authorization': 'Bearer test_token'} - MainProcess
+2026-11-04 10:10:07 [websockets.server] - INFO - server closing - MainProcess
+2026-11-04 10:10:07 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:10:07 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:10:08 [websockets.server] - INFO - server closed - MainProcess
+2026-11-04 10:10:13 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 10:10:13 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 10:10:13 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 10:10:13 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 10:10:13 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 10:10:13 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 10:10:14 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 10:10:14 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 10:10:15 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 10:10:15 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:10:15 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57391) - MainProcess
+2026-11-04 10:10:15 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:10:29 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:10:29 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:10:29 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:10:29 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57411) - MainProcess
+2026-11-04 10:10:30 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:15:56 [websockets.server] - INFO - server closing - MainProcess
+2026-11-04 10:15:56 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:15:56 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:15:56 [websockets.server] - INFO - server closed - MainProcess
+2026-11-04 10:16:41 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 10:16:41 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 10:16:41 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 10:16:41 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 10:16:41 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 10:16:41 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 10:16:42 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 10:16:42 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 10:16:42 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 10:16:43 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:16:43 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57596) - MainProcess
+2026-11-04 10:16:43 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:17:21 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:17:21 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:18:36 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 10:18:36 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 10:18:36 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 10:18:36 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 10:18:36 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 10:18:36 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 10:18:36 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 10:18:36 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 10:18:37 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 10:19:03 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:19:03 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57735) - MainProcess
+2026-11-04 10:19:03 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:22:53 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:22:53 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:22:57 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:22:57 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57841) - MainProcess
+2026-11-04 10:22:57 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:34:23 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:34:23 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:34:27 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:34:27 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58105) - MainProcess
+2026-11-04 10:34:27 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:36:43 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:36:43 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:36:44 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:36:44 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58173) - MainProcess
+2026-11-04 10:36:44 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:38:46 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:38:46 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:38:47 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:38:47 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58200) - MainProcess
+2026-11-04 10:38:47 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:42:40 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:42:40 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:42:43 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:42:43 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58294) - MainProcess
+2026-11-04 10:42:43 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:44:11 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:44:11 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:44:11 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:44:11 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58330) - MainProcess
+2026-11-04 10:44:12 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:47:22 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:47:22 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:47:25 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:47:25 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58381) - MainProcess
+2026-11-04 10:47:25 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 10:52:15 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 10:52:15 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 10:52:15 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 10:52:15 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 58501) - MainProcess
+2026-11-04 10:52:15 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:11:20 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 12:11:20 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 12:11:20 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 12:11:20 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 12:11:20 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 12:11:20 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 12:11:20 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 12:11:20 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 12:11:21 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 12:12:17 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:12:17 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 54509) - MainProcess
+2026-11-04 12:12:17 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:13:23 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:13:23 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:13:26 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:13:26 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 54807) - MainProcess
+2026-11-04 12:13:26 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:14:33 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:14:33 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:14:36 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:14:36 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 55103) - MainProcess
+2026-11-04 12:14:36 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:15:43 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:15:43 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:15:46 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:15:46 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 55428) - MainProcess
+2026-11-04 12:15:46 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:16:53 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:16:53 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:16:56 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:16:56 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 55721) - MainProcess
+2026-11-04 12:16:56 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:18:03 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:18:03 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:18:06 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:18:06 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 56026) - MainProcess
+2026-11-04 12:18:06 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:19:13 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:19:13 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:19:17 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:19:17 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 56332) - MainProcess
+2026-11-04 12:19:17 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:20:26 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:20:26 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:20:29 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:20:29 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 56653) - MainProcess
+2026-11-04 12:20:29 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:21:33 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:21:33 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:21:37 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:21:37 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 56966) - MainProcess
+2026-11-04 12:21:37 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:22:46 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:22:46 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:22:50 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:22:50 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57280) - MainProcess
+2026-11-04 12:22:50 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:23:53 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:23:53 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:23:57 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:23:57 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57578) - MainProcess
+2026-11-04 12:23:57 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:25:03 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:25:03 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:25:07 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:25:07 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 57890) - MainProcess
+2026-11-04 12:25:07 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:31:37 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 12:31:37 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 12:31:37 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 12:31:37 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 12:31:37 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 12:31:37 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 12:31:37 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 12:31:37 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 12:31:38 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 12:31:44 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:31:44 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 59959) - MainProcess
+2026-11-04 12:31:44 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:32:48 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:32:48 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:32:50 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:32:50 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60241) - MainProcess
+2026-11-04 12:32:50 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:35:13 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:35:13 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:35:16 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:35:16 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60306) - MainProcess
+2026-11-04 12:35:16 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:39:04 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:39:04 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:39:07 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:39:07 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60430) - MainProcess
+2026-11-04 12:39:08 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:40:28 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:40:28 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60472) - MainProcess
+2026-11-04 12:40:28 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:40:28 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:40:28 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:40:31 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:40:31 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60475) - MainProcess
+2026-11-04 12:40:31 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:40:31 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:40:31 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:40:34 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:40:34 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60478) - MainProcess
+2026-11-04 12:40:35 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:40:35 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:40:35 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:40:38 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:40:38 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60481) - MainProcess
+2026-11-04 12:40:38 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:40:38 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:40:38 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:40:41 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:40:41 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60485) - MainProcess
+2026-11-04 12:40:41 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:40:42 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:40:42 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:42:11 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 12:42:11 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:42:14 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 12:42:14 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 60522) - MainProcess
+2026-11-04 12:42:14 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 12:44:05 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 12:44:05 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:04:36 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 13:04:36 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 13:04:36 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 13:04:36 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 13:04:36 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 13:04:36 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 13:04:36 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 13:04:36 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 13:04:37 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 13:24:10 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 13:24:10 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 13:24:10 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 13:24:10 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 13:24:10 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 13:24:10 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 13:24:10 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 13:24:10 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 13:24:11 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 13:37:26 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:37:26 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 61940) - MainProcess
+2026-11-04 13:37:27 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:42:13 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:42:13 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:42:17 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:42:17 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62047) - MainProcess
+2026-11-04 13:42:18 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:43:23 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:43:23 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:43:27 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:43:27 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62060) - MainProcess
+2026-11-04 13:43:27 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:44:33 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:44:33 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:44:37 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:44:37 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62078) - MainProcess
+2026-11-04 13:44:37 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:45:43 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:45:43 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:45:47 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:45:47 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62097) - MainProcess
+2026-11-04 13:45:47 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:46:53 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:46:53 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:46:57 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:46:57 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62121) - MainProcess
+2026-11-04 13:46:57 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:48:03 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:48:03 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:48:07 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:48:07 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62137) - MainProcess
+2026-11-04 13:48:07 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:57:24 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 13:57:24 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 13:57:24 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 13:57:24 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 13:57:24 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 13:57:24 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 13:57:25 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 13:57:25 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 13:57:26 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 13:57:27 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:57:27 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62627) - MainProcess
+2026-11-04 13:57:27 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 13:58:00 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 13:58:01 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 13:58:02 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 13:58:02 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 62635) - MainProcess
+2026-11-04 13:58:02 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 14:00:13 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 14:00:13 [app.proxy.websocket_proxy] - ERROR - 客户端信息处理异常: no close frame received or sent - MainProcess
+2026-11-04 14:00:13 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 14:02:05 [websockets.server] - INFO - server closing - MainProcess
+2026-11-04 14:02:05 [websockets.server] - INFO - server closed - MainProcess
+2026-11-04 14:02:15 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 14:02:15 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:02:15 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:02:15 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 14:02:15 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:02:15 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:02:15 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 14:02:15 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 14:02:16 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 14:07:20 [websockets.server] - INFO - server closing - MainProcess
+2026-11-04 14:07:20 [websockets.server] - INFO - server closed - MainProcess
+2026-11-04 14:07:28 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 14:07:28 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:07:28 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:07:28 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 14:07:28 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:07:28 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:07:28 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 14:07:28 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 14:07:29 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 14:09:24 [websockets.server] - INFO - server closing - MainProcess
+2026-11-04 14:09:24 [websockets.server] - INFO - server closed - MainProcess
+2026-11-04 14:09:33 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 14:09:33 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:09:33 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:09:33 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 14:09:33 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:09:33 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:09:34 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 14:09:34 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 14:09:34 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 14:36:19 [websockets.server] - INFO - server closing - MainProcess
+2026-11-04 14:36:19 [websockets.server] - INFO - server closed - MainProcess
+2026-11-04 14:36:25 [root] - INFO - 日志系统初始化完毕，路径: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\logs\app.log - MainProcess
+2026-11-04 14:36:25 [app.utils.system_info] - INFO - 检测到系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:36:25 [app.utils.system_info] - INFO - 当前系统: PLATFORM.WINDOWS, 架构: x64 - MainProcess
+2026-11-04 14:36:25 [app.utils.finder] - INFO - spec: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64 - MainProcess
+2026-11-04 14:36:25 [app.utils.system_info] - INFO - 找到opus库文件: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:36:25 [app.utils.system_info] - INFO - 成功加载opus库: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\libs\win\x64\opus.dll - MainProcess
+2026-11-04 14:36:25 [app.config] - INFO - 正在加载本地配置: C:\Users\QUANGTRUMBK\Desktop\Chatboot\xiaozhi-webui-master\backend\config\config.json - MainProcess
+2026-11-04 14:36:25 [app.utils.device] - INFO - 成功获取到 MAC 地址: b8:ca:3a:d5:ce:c4 (node: 203178709995204) - MainProcess
+2026-11-04 14:36:26 [websockets.server] - INFO - server listening on 0.0.0.0:5000 - MainProcess
+2026-11-04 14:48:25 [websockets.server] - INFO - connection rejected (426 Upgrade Required) - MainProcess
+2026-11-04 14:48:25 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 14:48:26 [websockets.server] - INFO - connection rejected (426 Upgrade Required) - MainProcess
+2026-11-04 14:48:26 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 14:48:27 [websockets.server] - INFO - connection rejected (426 Upgrade Required) - MainProcess
+2026-11-04 14:48:27 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 14:48:45 [websockets.server] - INFO - connection rejected (426 Upgrade Required) - MainProcess
+2026-11-04 14:48:45 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 14:48:46 [websockets.server] - INFO - connection rejected (426 Upgrade Required) - MainProcess
+2026-11-04 14:48:46 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 14:49:02 [websockets.server] - INFO - connection rejected (426 Upgrade Required) - MainProcess
+2026-11-04 14:49:02 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:07:15 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:07:15 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64337) - MainProcess
+2026-11-04 15:07:25 [app.proxy.websocket_proxy] - ERROR - 代理失败: timed out during opening handshake - MainProcess
+2026-11-04 15:07:25 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:07:30 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:07:30 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64342) - MainProcess
+2026-11-04 15:07:30 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:07:35 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:17:38 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:17:38 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:17:42 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:17:42 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64554) - MainProcess
+2026-11-04 15:17:42 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:18:43 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:18:43 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:18:47 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:18:47 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64571) - MainProcess
+2026-11-04 15:18:47 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:19:53 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:19:53 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:19:57 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:19:57 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64605) - MainProcess
+2026-11-04 15:19:57 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:21:02 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:21:03 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:21:06 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:21:06 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64675) - MainProcess
+2026-11-04 15:21:06 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:22:13 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:22:13 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:22:18 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:22:18 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64731) - MainProcess
+2026-11-04 15:22:18 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:23:23 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:23:23 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:23:28 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:23:28 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64767) - MainProcess
+2026-11-04 15:23:28 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:24:36 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:24:36 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:24:41 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:24:41 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64820) - MainProcess
+2026-11-04 15:24:41 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:25:43 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:25:43 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:25:48 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:25:48 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64869) - MainProcess
+2026-11-04 15:25:48 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:26:53 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:26:53 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:26:58 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:26:58 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64912) - MainProcess
+2026-11-04 15:26:58 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:28:02 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:28:02 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:28:07 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:28:07 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64931) - MainProcess
+2026-11-04 15:28:07 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:29:16 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:29:16 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:29:21 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:29:21 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 64966) - MainProcess
+2026-11-04 15:29:21 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:30:22 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:30:22 [websockets.server] - INFO - connection closed - MainProcess
+2026-11-04 15:30:27 [websockets.server] - INFO - connection open - MainProcess
+2026-11-04 15:30:27 [app.proxy.websocket_proxy] - INFO - 正在创建新的客户端 websocket 连接: ('127.0.0.1', 65024) - MainProcess
+2026-11-04 15:30:27 [app.proxy.websocket_proxy] - INFO - 已连接至 websocket 服务器，请求头: {'Device-Id': 'b8:ca:3a:d5:ce:c4', 'Client-Id': '9a53fcff-698e-4a30-aeae-dbc788a54516', 'Protocol-Version': '1'} - MainProcess
+2026-11-04 15:31:33 [app.proxy.websocket_proxy] - INFO - 客户端连接关闭 - MainProcess
+2026-11-04 15:31:33 [websockets.server] - INFO - connection closed - MainProcess
